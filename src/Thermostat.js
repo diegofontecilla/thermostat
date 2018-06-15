@@ -37,7 +37,7 @@ Thermostat.prototype.isMaximumTemperature = function () {
 
 Thermostat.prototype.isMinimumTemperature = function () {
   return this.temperature === this.MINIMUM_TEMPERATURE;
-};
+};Thermostat.DEFAULT_TEMPERATURE
 
 Thermostat.prototype.isPowerSavingModeOn = function() {
   return this.powerSavingMode === true;
